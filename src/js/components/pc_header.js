@@ -146,7 +146,7 @@ class PCHeader extends React.Component {
 								<TabPane tab="登录" key="1">
 									<Form horizontal onSubmit={this.handleSubmit.bind(this)}>
 										<FormItem label="账户">
-											<Input placeholder="请输入您的账号" {...getFieldProps('userName')}/>
+											<Input placeholder="请输入您的账号" {...getFieldProps('userName')}/> 
 										</FormItem>
 										<FormItem label="密码">
 											<Input type="password" placeholder="请输入您的密码" {...getFieldProps('password')}/>
